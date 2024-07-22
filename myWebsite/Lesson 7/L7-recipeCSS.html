@@ -6,6 +6,19 @@ align and border statements are repalced with internal CSS
 <html>
     <head>
         <title>My Favorite Recipe</title> 
+        <!-- CSS table borders: https://www.w3schools.com/html/html_table_borders.asp -->
+        <!--  -->
+        <style>
+            table, th {
+                text-align: center;
+                border: 1px solid;
+            }
+
+            td {
+                text-align: right;
+                border: 1px solid; 
+            }
+        </style>
     </head>
     <body>
         <h1>Hotdogs</h1>
@@ -34,7 +47,7 @@ align and border statements are repalced with internal CSS
              depreciated. They are replaced with CSS stuff.
              We'll update them later. 
         -->
-        <table align="center" border="1" cellspacing="0" cellpadding="4"> <!-- border="0" is the same as no border -->
+        <table cellspacing="0" cellpadding="4"> <!-- border="0" is the same as no border -->
 
             <!-- Table rows and cells read 1st is leftmost-->
              <tr>
@@ -45,18 +58,18 @@ align and border statements are repalced with internal CSS
                 <th>Calories</th>   <!-- Table header -->
             </tr>
             <tr>
-                <td align="right">Hotdog</td>
-                <td align="right">150</td>
+                <td >Hotdog</td>
+                <td >150</td>
             </tr>
             <tr>
                 <!-- <td rowspan="2" align="right">Bun</td>
                 <td rowspan="2" align="right">90</td> -->
-                <td align="right">Bun</td>
-                <td align="right">90</td>
+                <td>Bun</td>
+                <td>90</td>
             </tr>
             <tr>
-                <td align="right">Ketchup</td>
-                <td align="right">10</td>
+                <td>Ketchup</td>
+                <td>10</td>
             </tr>
         </table>
 
