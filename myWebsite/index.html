@@ -18,8 +18,36 @@
                 line-height: 60px;
             }
 
+            /* Styling Links with anchor tag `a` */
+            /* Applying styles to anchors ONLY in nav tag */
+            /* nav a {
+                text-decoration: none;
+                color: black; 
+                font-size: 115%;
+            }
+
+            nav {
+                background-color: #8fa2e9;
+                height: 30px; 
+                line-height: 25px;
+                width: 300px; 
+                float: right; 
+            } */
+
+            nav {
+                width: 300px; 
+                float: right; 
+            }
+
+            nav a {
+                text-decoration: none;
+                color: white; 
+                font-size: 115%;
+            }
+
             h1 {
                 margin: 0; 
+                float: left;
             }
 
             h2 {
@@ -32,6 +60,11 @@
         <header> 
             <img src="Images/logo.png" style="float: left; height: 58px" alt="Logo"> 
             <h1>&nbsp;Page Header</h1>
+            <nav>
+                &nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>
+                &nbsp;&nbsp;&nbsp;<a href="recipe.html">Hotdog Recipe</a>
+                &nbsp;&nbsp;&nbsp;<a href="https://www.allrecipes.com">All Recipes</a>
+            </nav>
         </header>
         <div style="text-align: center;">
             <h2><strong>Welcome to My Site</strong></h2>
