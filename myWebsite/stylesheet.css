@@ -23,7 +23,7 @@ body {
 
 #wrapper {
     width: 90%; 
-    
+
     /*  Stops the nav bar from disappearing */
     min-width: 580px; 
     max-width: 1400px;
