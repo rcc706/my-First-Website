@@ -16,8 +16,22 @@ nav {
 } */
 
 body {
+    background-color: lightblue;
     color: #2D3B71; 
     margin: 0; 
+}
+
+#wrapper {
+    width: 90%; 
+    
+    /*  Stops the nav bar from disappearing */
+    min-width: 580px; 
+    max-width: 1400px;
+
+    background-color: white;
+    border: solid 1px silver; 
+    border-radius: 4px; 
+    margin: 10px auto; /* Top/bottom margins have same value, horizontal margins are centered */
 }
 
 header {
@@ -36,6 +50,10 @@ nav a {
     text-decoration: none;
     color: white; 
     font-size: 115%;
+}
+
+main {
+    padding: 8px; /* Text isn't right-up against the border of wrapper */
 }
 
 h1 {
