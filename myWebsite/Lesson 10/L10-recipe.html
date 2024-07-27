@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Favorite Recipe</title> 
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="Images/hotdog.png" style="float: left; height: 58px; width: 58px;" alt="Hotdog">
+                <h1 style="padding-left: 5px;">Hotdogs</h1>
+                <nav>
+                    &nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>
+                    &nbsp;&nbsp;&nbsp;<a href="recipe.html">Hotdog Recipe</a>
+                    &nbsp;&nbsp;&nbsp;<a href="https://www.allrecipes.com">All Recipes</a>
+                </nav>
+            </header>
+            <main>
+                <p>Here is my <em>unique</em> gourmet Hotdog recipe.</p>
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>Hotdogs</li>
+                    <li>Hotdog buns</li>
+                    <li>Mustard</li>
+                    <li>Relish</li>
+                    <li>Chopped onions</li>
+                </ul>
+                <h2>Directions</h2>
+                <ol>
+                    <li>Preheat grill to 350&deg;.</li>
+                    <li>Place dogs on grill &#38; roll occasionally for even cooking.</li>
+                    <li>Place cooked hotdogs in buns.</li>
+                    <li>Apply mustard, relish, and onions to taste.</li>
+                    <li><strong>Enjoy your hotdogs!</strong></li>
+                </ol>
+
+                <!-- <table></table> defines the table element -->
+                <!-- Border is pixel length -->
+                <!-- align and border are red because they are 
+                    depreciated. They are replaced with CSS stuff.
+                    We'll update them later. 
+                -->
+                <table align="center" border="1" cellspacing="0" cellpadding="4"> <!-- border="0" is the same as no border -->
+
+                    <!-- Table rows and cells read 1st is leftmost-->
+                    <tr>
+                        <th colspan="2">Nutritional Information</th>
+                    </tr>
+                    <tr>
+                        <th>Ingredient</th> <!-- Table header -->
+                        <th>Calories</th>   <!-- Table header -->
+                    </tr>
+                    <tr>
+                        <td align="right">Hotdog</td>
+                        <td align="right">150</td>
+                    </tr>
+                    <tr>
+                        <!-- <td rowspan="2" align="right">Bun</td>
+                        <td rowspan="2" align="right">90</td> -->
+                        <td align="right">Bun</td>
+                        <td align="right">90</td>
+                    </tr>
+                    <tr>
+                        <td align="right">Ketchup</td>
+                        <td align="right">10</td>
+                    </tr>
+                </table>
+
+                <!-- Anchor tag <a> with a href attribute -->
+                <p>
+                    <a href="https://en.wikipedia.org/wiki/Special:Random">Random Wikipedia Article</a>
+                    <a href="index.html">Home</a>
+                </p>
+            </main>
+        </div>
+    </body>
+</html>
